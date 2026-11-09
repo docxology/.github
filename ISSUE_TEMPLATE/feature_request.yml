@@ -1,0 +1,19 @@
+name: Feature or improvement
+description: Suggest an enhancement, new analysis, or documentation improvement
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Links, references, papers, or examples.
