@@ -1,0 +1,7 @@
+# Contributor workflow
+
+The bug form requires the reporter to describe what happened and give steps to reproduce it. It offers optional fields for the version, environment, and logs. The feature form requires a statement of the problem, with optional fields for a proposed change and context. The chooser allows blank issues and directs vulnerability reports to the security policy. That policy asks reporters to identify the affected repository and version, describe the observed impact, and use GitHub private vulnerability reporting where available or email the maintainer [@docxologyCommunityFiles].
+
+The contribution guide asks contributors to check existing issues and pull requests, discuss larger changes before implementation, branch from the project's default branch, and run project checks. It also asks research contributors to document sources and data provenance and confirm sharing rights. The pull request template turns several of those expectations into review prompts. Its checklist calls for passing local checks, updating affected documentation, and omitting secrets, credentials, and private data [@docxologyCommunityFiles].
+
+For a maintainer reviewing a default-file change, the first check is whether the files and links are present at GitHub's documented paths. An end-to-end check also needs a destination repository that inherits the defaults. For instance, the shared issue forms request the labels `bug` and `enhancement`. Matching labels must exist in both the defaults repository and repositories that use the forms [@githubCommunityFiles].

@@ -1,0 +1,24 @@
+paper:
+  title: "Shared GitHub Community Defaults for docxology Repositories"
+  subtitle: "File discovery, contributor workflow, and verification"
+  version: "0.1.0"
+
+authors:
+  - name: "docxology"
+
+publication:
+  release_status: "unreleased"
+  github_repository: "docxology/.github"
+  repository_url: "https://github.com/docxology/.github"
+
+metadata:
+  license: "MIT"
+  language: "en"
+
+render:
+  formats:
+    pdf: true
+    html: true
+    slides: false
+    docx: false
+    epub: false
