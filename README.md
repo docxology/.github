@@ -1,9 +1,11 @@
 # docxology/.github
 
-Default [community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for repositories owned by [@docxology](https://github.com/docxology). A repository's own copy of any of these files takes precedence.
+This repository provides default [community health files](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file) for repositories owned by [@docxology](https://github.com/docxology).
 
-- [`SECURITY.md`](SECURITY.md): how to report a vulnerability privately.
-- [`CONTRIBUTING.md`](CONTRIBUTING.md): how to propose changes.
-- [`PULL_REQUEST_TEMPLATE.md`](PULL_REQUEST_TEMPLATE.md): default pull request description.
-- [`ISSUE_TEMPLATE/`](ISSUE_TEMPLATE): bug report and feature request forms.
-- [`FUNDING.yml`](FUNDING.yml): adds the Sponsor button.
+See the [documentation](docs/README.md) for the contributor workflow, GitHub's file discovery rules, and the manuscript.
+
+- [Security policy](SECURITY.md)
+- [Contribution guide](CONTRIBUTING.md)
+- [Pull request template](PULL_REQUEST_TEMPLATE.md)
+- [Issue forms and chooser configuration](.github/ISSUE_TEMPLATE/)
+- [Sponsor button configuration](.github/FUNDING.yml)
